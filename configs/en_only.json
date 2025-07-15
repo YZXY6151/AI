@@ -1,0 +1,9 @@
+{
+  "pipeline": ["dedup", "split", "filter", "clean", "minify"],
+  "lang_whitelist": ["en"],
+  "cache_dir": "data/cc_net_ccnet",
+  "mined_dir": "data/cc_net_ccnet_out",
+  "wet_paths": "data/cc_net_ccnet/wet.paths",
+  "dump": "CC-MAIN-2025-26",
+  "target_size": "5GB"
+}

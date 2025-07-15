@@ -1,0 +1,15 @@
+model:
+  path: models/yi-1.5-9b
+
+inference:
+  default:
+    seq_len: 64
+    batch_size: 1
+
+  long_context:
+    seq_len: 128
+    batch_size: 1
+
+  batch:
+    seq_len: 64
+    batch_size: 4

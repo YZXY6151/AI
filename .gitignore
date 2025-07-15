@@ -1,0 +1,57 @@
+# ================================
+# Python & 开发环境
+# ================================
+# Byte‑compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ai-env/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# ================================
+# 数据中间产物
+# ================================
+# 如果你有清洗前的大文件，也要忽略
+data/raw/
+*.gz
+*.zip
+
+# ================================
+# 模型 & 权重（15GB+）
+# ================================
+# 直接忽略整个 models 目录
+models/
+
+# 如果你希望在版本库里保留 LoRA adapter（几十 MB），可以这样写：
+# models/yi-lora/*
+# !models/yi-lora/adapter_config.json
+# !models/yi-lora/adapter_model.safetensors
+
+# ================================
+# 其他不需要跟踪的文件
+# ================================
+*.tar.gz
+*.ftz
+*.paths
+
+pretrain.txt
+
+external/cc_net/
+
+*.jsonl
+
+*.txt
+
+*.csv
